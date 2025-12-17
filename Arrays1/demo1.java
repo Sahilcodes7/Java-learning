@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class demo1 {
 
-    // method to count occurrences
+   
     public static int countOccurrence(int[] arr, int key) {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -25,13 +25,13 @@ public class demo1 {
 
         int[] nums = new int[size];
 
-        // array input
+     
         for (int i = 0; i < size; i++) {
             System.out.print("Enter number " + (i + 1) + ": ");
             nums[i] = input.nextInt();
         }
 
-        // element to search
+        
         System.out.print("Enter element to find occurrences: ");
         int key = input.nextInt();
 
